@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  font-family: "Noto Sans JP";
+  background-image: url('../images/background.png');
+  background-size: 320px;
+}
+
+.main {
+  width: 480px;
+  height: 720px;
+  background: red;
+}
+
+.start {
+  position: relative;
+  margin: 0 auto;
+  width: 480px;
+  height: 720px;
+  background-color: skyblue;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 24px;
+  margin: 24px 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  text-decoration: underline;
+  color: #333;
+}
+
+h3 {
+  text-align: center;
+}
+
+.ex-wrap {
+  display: flex;
+  padding: 20px 40px;
+}
+
+.ex-wrap2 {
+  text-align: center;
+}
+
+.ex2 {
+  width: 360px;
+}
+
+.ex {
+  width: 200px;
+}
+
+.display {
+  display: none;
+  position: relative;
+  margin: 0 auto;
+  width: 480px;
+  height: 720px;
+  background-color: skyblue;
+}
+
+.score {
+  padding: 8px 16px;
+  text-align: right;
+  font-size: 32px;
+}
+
+.my {
+  position: absolute;
+  top: 560px;
+  left: 160px;
+  width: 192px;
+}
+
+.tama {
+  position: absolute;
+  width: 64px;
+}
+
+.teki {
+  position: absolute;
+  width: 80px;
+}
+
+.win {
+  position: absolute;
+  width: 120px;
+  opacity: 0.75;
+}
+
+.lose {
+  position: absolute;
+  width: 120px;
+  opacity: 0.75;
+}
+
+.aiko {
+  position: absolute;
+  width: 160px;
+  opacity: 0.75;
+}
+
+.gameover {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 480px;
+  padding: 240px 0;
+  text-align: center;
+  font-size: 40px;
+}
